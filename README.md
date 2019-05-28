@@ -1,7 +1,7 @@
 # udacity-p2_continuous_control
 This is a repository for project 2-continuous-control of udacity DRLND program
 
-### Project Details
+## Project Details
 This project is one of the udactiy deep reinforcement learning nano degree program. The environment you will work with is Unity ML-Agents Reacher. please refer to details [here](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) for the enviroment.
 
 The goal of this project is to train an agent to move a double-jointed arm to a target location and maintain its position at the target location for as many time steps as possible.
@@ -12,7 +12,7 @@ The observation space consists of 33 variables corresponding to position, rotati
 #### Distributed Training
 For this project, multi-agents version of the Unity enviroment which contains 20 identical agents, each with its own copy of the environments has been used. This version is useful for algorithms like PPO, A3C, and D4PG that use multiple (non-interacting, parallel) copies of the same agent to distribute the task of gathering experience.
 
-#### Solve the Environments.
+#### Solve the Environments
 Agents must get an average score of +30 (over 100 consecutive episodes, and over all agents)
 
 - After each episode, we add up the rewards that each agent received (without discounting), to get a score for each agent. This yields 20 (potentially different) scores. We then take the average of these 20 scores.
@@ -21,7 +21,7 @@ Agents must get an average score of +30 (over 100 consecutive episodes, and over
 The environment is considered solved, when the average (over 100 episodes) of those average scores is at least +30.
 
 
-### Getting Started
+## Getting Started
 Follow the instructions below to explore the environment on your own machine!
 
 #### Step 1: Activate the Environment
@@ -45,7 +45,7 @@ For this project, you will not need to install Unity - you can download it from 
 
 Then, place the file in the p2_continuous-control/ folder in the DRLND GitHub repository, and unzip (or decompress) the file.
 
-### Instructions
+## Instructions
 Follow the instructions in p2_continuous_control_multi.ipynb to get started with training your own agent! You can train agenets to move a double-jointed arm to a target location and keep its position at the target location.
 
 After finishing your agent training, you can check a score by plotting average scores over episodes.
