@@ -33,6 +33,7 @@ TAU = 1e-3              # for soft update of target parameters
 LR_ACTOR = 1e-3         # learning rate of the actor 
 LR_CRITIC = 1e-4        # learning rate of the critic
 WEIGHT_DECAY = 0.0      # L2 weight decay
+
 Ornstein-Uhlenbeck noise parameters (0.15 theta and 0.1 sigma.)
 ~~~
 
@@ -104,7 +105,7 @@ class Critic(nn.Module):
         x = F.relu(self.fc2(x))
         return self.fc3(x)
 ~~~
-As you can see in the above code snippets, the number of units of hiddenl layers 1,2 is 256, 512 in Actor and Critic Networks.
+As you can see in the above code snippets, the number of units of hiddenl layers 1,2 is 256, 512 in Actor and Critic Networks.<br>
 Also, the batch normalization was inserted after the first hidden layer, this is a key to overcome for a single anget not trained in my experiment.
 
 ## Experiment Results
