@@ -126,3 +126,22 @@ The state for the first agent looks like: [ 0.00000000e+00 -4.00000000e+00  0.00
  -1.68164849e-01]
  ~~~
 
+**Average Score per Episodes**
+The Agent solved the environment in 33 episoodes with average score 30.62
+~~~python
+Episode 20	Average Score: 6.70
+Episode 30	Average Score: 23.85
+Episode 33	Average Score: 30.62
+Environment solved in 33 episodes!	Average Score: 30.62
+~~~
+
+The following is plot of average score over all 20 agents per episodes
+
+
+## Future Works
+- Find out the best hyper parameters which can meet the performance and also reduce training time
+- Tune algorithms to be more stable.
+- Try Other Algorithms for better perfomance such as [Trust Region Policy Optimization (TRPO)](https://arxiv.org/abs/1502.05477) and Truncated Natural Policy Gradient (TNPG) and [Proximal Policy Optimization (PPO)](https://arxiv.org/abs/1707.06347). Also explore the recent [Distributed Distributional Deterministic Policy Gradients (D4PG](https://openreview.net/forum?id=SyZipzbCb) algorithm as another method for adapting DDPG for continuous control.
+
+
+
