@@ -1,6 +1,8 @@
 # udacity-p2_continuous_control
 This is a repository for project 2-continuous-control of udacity DRLND program
 
+<img src="img/Reacher.gif" width="720" height="380" title="Reacher">
+
 ## Project Details
 This project is one of the udactiy deep reinforcement learning nano degree program. The environment you will work with is Unity ML-Agents Reacher. please refer to details [here](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) for the enviroment.
 
