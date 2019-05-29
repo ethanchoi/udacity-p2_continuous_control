@@ -127,16 +127,25 @@ The state for the first agent looks like: [ 0.00000000e+00 -4.00000000e+00  0.00
  ~~~
 
 **Average Score per Episodes**
-The Agent solved the environment in 33 episoodes with average score 30.62
+The Agent solved the environment in 29th episoode with average score 31.84
 ~~~python
-Episode 20	Average Score: 6.70
-Episode 30	Average Score: 23.85
-Episode 33	Average Score: 30.62
-Environment solved in 33 episodes!	Average Score: 30.62
+Episode 10	Average Score: 1.47
+Episode 20	Average Score: 10.41
+Episode 29	Average Score: 31.84
+Environment solved in 29 episodes!	Average Score: 31.84
+Episode 30	Average Score: 33.66
+Episode 40	Average Score: 38.33
+Episode 50	Average Score: 38.64
+Episode 60	Average Score: 38.70
+Episode 70	Average Score: 37.89
+Episode 80	Average Score: 38.73
+Episode 90	Average Score: 38.55
+Episode 100	Average Score: 37.27
 ~~~
 
 The following is plot of average score over all 20 agents per episodes
 
+<img src="./img/avg_scores_multi.png">
 
 ## Future Works
 - Find out the best hyper parameters which can meet the performance and also reduce training time
