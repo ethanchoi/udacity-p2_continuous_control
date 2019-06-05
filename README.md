@@ -48,7 +48,7 @@ For this project, you will not need to install Unity - you can download it from 
 Then, place the file in the p2_continuous-control/ folder in the DRLND GitHub repository, and unzip (or decompress) the file.
 
 ## Instructions
-Follow the instructions in p2_continuous_control_multi.ipynb to get started with training your own agent! You can train agenets to move a double-jointed arm to a target location and keep its position at the target location.
+Follow the instructions in continuous_control_multi.ipynb to get started with training your own agent! You can train agenets to move a double-jointed arm to a target location and keep its position at the target location.
 
 After finishing your agent training, you can check a score by plotting average scores over episodes.
 It will tell you how many epsiodes in your model are needed to get +30 average score. you can also save model weights and load it later.
