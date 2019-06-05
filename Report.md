@@ -127,20 +127,19 @@ The state for the first agent looks like: [ 0.00000000e+00 -4.00000000e+00  0.00
  ~~~
 
 **Average Score per Episodes**
-The Agent solved the environment in 29th episoode with average score 31.84
+The Agent solved the environment in 92 episoode with average score 30.05
 ~~~python
-Episode 10	Average Score: 1.47
-Episode 20	Average Score: 10.41
-Episode 29	Average Score: 31.84
-Environment solved in 29 episodes!	Average Score: 31.84
-Episode 30	Average Score: 33.66
-Episode 40	Average Score: 38.33
-Episode 50	Average Score: 38.64
-Episode 60	Average Score: 38.70
-Episode 70	Average Score: 37.89
-Episode 80	Average Score: 38.73
-Episode 90	Average Score: 38.55
-Episode 100	Average Score: 37.27
+Episode 10	Average Score: 1.45
+Episode 20	Average Score: 5.00
+Episode 30	Average Score: 13.36
+Episode 40	Average Score: 19.12
+Episode 50	Average Score: 23.07
+Episode 60	Average Score: 25.63
+Episode 70	Average Score: 27.45
+Episode 80	Average Score: 28.79
+Episode 90	Average Score: 29.87
+Episode 92	Average Score: 30.05
+Environment solved in 92 episodes!	Average Score: 30.05
 ~~~
 
 The following is plot of average score over all 20 agents per episodes
